@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         力扣（Leetcode-cn）清理大师
 // @namespace    https://github.com/NicerWang
-// @version      0.1
+// @version      0.2
 // @description  本脚本旨在消除力扣刷题界面的无用信息，并仿照OJ对力扣进行改动。
 // @author       NicerWang
 // @match        https://leetcode-cn.com/problems/*
@@ -14,6 +14,7 @@
     style.type = "text/css";
     var blockCssText = "div[data-key='submissions-content']>div>div>div>div>div:nth-child(n+3)," // 删除提交错误时的错误用例显示[OJ默认设置]
                      + "div[data-key='runcode-result-content']>div>div>div:nth-child(4)," // 删除执行代码时的正确代码运行结果[OJ默认设置]
+                     + "div[data-key='runcode-result-content']>div>div>div:nth-child(3)>label," // 删除比较按钮[OJ默认设置]
                      + "div[data-key='comments']," // 关闭评论区
                      + "div[data-key='description-content']>div>div:nth-child(n+3):nth-child(-n+8)," // 删除相关企业、总提交次数、贡献者等无用信息
                      + "nav>ul>li:nth-child(2),nav>ul>li:nth-child(4),nav>ul>li:nth-child(6),nav>ul>li:nth-child(7),nav>ul>li:nth-child(8)," // 删除顶栏的学习、讨论、求职、商店
