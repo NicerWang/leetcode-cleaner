@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Leetcode-cn清洁器
+// @name         力扣（Leetcode-cn）清理大师
 // @namespace    https://github.com/NicerWang
 // @version      0.1
-// @description  去除与刷题无关的内容，关闭结果提示
+// @description  本脚本旨在消除力扣刷题界面的无用信息，并仿照OJ对力扣进行改动。
 // @author       NicerWang
 // @match        https://leetcode-cn.com/problems/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=leetcode-cn.com
