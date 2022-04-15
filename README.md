@@ -1,4 +1,6 @@
-# 力扣（Leetcode-cn）清理大师
+# Leetcode-cleaner
+
+> 力扣（Leetcode-cn）清理大师
 
 本脚本旨在消除力扣刷题界面的无用信息，并仿照OJ对力扣进行改动。
 
@@ -13,7 +15,26 @@
 * 删除PLUS会员功能（调试器、智能模式）
 * 重命名`题解`为`我要放弃`，使用激将法提高AC率
 
-**查看具体修改效果，请[点击这里](https://github.com/NicerWang/leetcode-cleaner)查看项目Github仓库**
+修改后样式如下：
 
-欢迎Star或提出Issue
+![](static/main.jpg)
+
+* 提交结果
+
+  ![](static/run.jpg)
+
+* 运行结果：
+
+  ![](static/test.jpg)
+
+**脚本内有详尽注释，您可以根据需求自定义脚本**
+
+## 安装方法：
+
+**需要脚本管理软件，如`tampermonkey`等**
+
+1. （推荐）从[Greasyfork](https://greasyfork.org/zh-CN/scripts/443419-%E5%8A%9B%E6%89%A3-leetcode-cn-%E6%B8%85%E7%90%86%E5%A4%A7%E5%B8%88)直接下载安装
+2. 或从当前位置下载源代码
+
+
 
